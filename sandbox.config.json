@@ -1,0 +1,12 @@
+{
+  "devServer": {
+    "proxy": {
+      "/api": {
+        "target": "https://api.pipedream.com/v1/sources/dc_K0uRXB8/events",
+        "changeOrigin": true
+      }
+    }
+  },
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": true
+}
